@@ -8,10 +8,11 @@ import android.widget.ProgressBar
 import android.widget.RelativeLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import java.net.URL
 
 class MainActivity : AppCompatActivity() {
 
-    val city: String = "toronto,ca"
+    val CITY: String = "toronto,ca"
     val API: String = "b0fa7e6d6ef32271d13bc15b0a485688"
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,7 +31,16 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        override fun doInBackground(): Int {
+        override fun doInBackground(vararg p0: String?): String {
+            var response:String?
+            try{
+                response = URL(spec:"https://api.openweathermap.org/data/2.5/weather?q=$CITY&units=metric&appid=$API").readText(Charsets.UTF_8)
+            }
+            catch (e: Exception)
+            {
+                response = null
+            }
+            return response
         }
     }
 
