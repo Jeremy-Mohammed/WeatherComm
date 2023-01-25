@@ -8,6 +8,7 @@ import android.widget.ProgressBar
 import android.widget.RelativeLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import org.json.JSONObject
 import java.net.URL
 
 class MainActivity : AppCompatActivity() {
@@ -41,6 +42,16 @@ class MainActivity : AppCompatActivity() {
                 response = null
             }
             return response
+        }
+
+        override fun onPostExecute(result: String?){
+            super.onPostExwecute(result)
+            try{
+                val jsonObj = JSONObject(result)
+                val main = jsonObj.getJSONObject(name: "main")
+                val sys = jsonObj.getJSONObject(name: "sys")
+                val wind = jsonObj.getJSONObject(name: "wind")
+            }
         }
     }
 
