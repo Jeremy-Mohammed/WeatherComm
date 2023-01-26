@@ -11,6 +11,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import org.json.JSONObject
 import org.w3c.dom.Text
+import java.lang.reflect.Executable
 import java.net.URL
 import java.text.SimpleDateFormat
 import java.util.*
@@ -83,6 +84,11 @@ class MainActivity : AppCompatActivity() {
 
                 findViewById<ProgressBar>(R.id.loader).visibility = View.GONE
                 findViewById<RelativeLayout>(R.id. mainContainer).visibility = View.VISIBLE
+            }
+            catch (e: Exception)
+            {
+                findViewById<ProgressBar>(R.id.loader).visibility = View.GONE
+                findViewById<TextView>(R.id.errortext).visibility = View.VISIBLE
             }
         }
     }
