@@ -205,7 +205,7 @@
 
                     </TextView>
                     <TextView
-                        android:id="@+id/win"
+                        android:id="@+id/wind"
                         android:textSize="14sp"
                         android:text="5:30am"
                         android:layout_width="wrap_content"
