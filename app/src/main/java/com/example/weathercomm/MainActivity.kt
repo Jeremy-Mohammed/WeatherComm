@@ -62,12 +62,12 @@ class MainActivity : AppCompatActivity() {
                 val temp = main.getString("temp") + "°C"
                 val tempMin = "Min Temp: " + main.getString("temp_min") + "°C"
                 val tempMax = "Max Temp: " + main.getString("temp_max") + "°C"
-                val tempFeels = "Feels like: " + main.getString("temp_max") + "°C"
-                val pressure = main.getString("pressure")
-                val humidity = main.getString("humidity")
+                val tempFeels = "Feels Like: " + main.getString("temp_max") + "°C"
+                val pressure = main.getString("pressure") + "hPa"
+                val humidity = main.getString("humidity") + "%"
                 val sunrise:Long = sys.getLong("sunrise")
                 val sunset:Long = sys.getLong("sunset")
-                val windSpeed = wind.getString("speed")
+                val windSpeed = wind.getString("speed") + " m/s"
                 val weatherDescription = weather.getString("description")
                 val address = jsonObj.getString("name") + ", " + sys.getString("country")
 
