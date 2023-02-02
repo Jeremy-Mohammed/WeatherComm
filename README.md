@@ -2,7 +2,7 @@
 
 ## Project Information
 
-Weather mobile application that pulls live data from OpenWeather Api and displays for users. 
+Designed an android application that implements OpenWeatherMap API live data. The API calls from the OWM server to display current weather information from a specified city.
 
 
 **Tools Used**
