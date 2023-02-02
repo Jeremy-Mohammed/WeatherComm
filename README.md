@@ -39,4 +39,6 @@ Current information on a location that can be viewed include:
  * Pressure
  * Humidity
  
- <img src="https://github.com/Jeremy-Mohammed/Food4Cause/blob/main/final_project/food4cause/lib/images/Picture1.jpg" width = "200" height = "480" /><br><br>
+ <img src="https://github.com/Jeremy-Mohammed/WeatherComm/blob/main/images/Toronto.png" width = "240" height = "480" /><br>
+ 
+ <img src="https://github.com/Jeremy-Mohammed/WeatherComm/blob/main/images/New_York.png" width = "240" height = "480" /><br>
