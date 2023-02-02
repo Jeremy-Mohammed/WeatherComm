@@ -2,16 +2,16 @@
 
 ## Project Information
 
- Weather App using OpenWeatherMap API.
-<br>
-<br>
+Weather mobile application that pulls live data from OpenWeather Api and displays for users. 
+
+
 **Tools Used**
-<br>
+
 ![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white)
 ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)
 ![XML](https://img.shields.io/badge/XML-333333?style=for-the-badge&logo=chipperci)
-<br>
-<br>
+
+
 
 ## Instructions
 
@@ -19,7 +19,8 @@
 2. Open the program in any emulator applicable IDE.
 3. Run an android emulator.
 4. Run the program. 
-<br>
+
+
 
 ## Example Images with App Functionality
 
