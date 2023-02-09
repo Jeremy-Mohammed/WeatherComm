@@ -361,7 +361,7 @@
                     <ImageView
                         android:layout_width="25dp"
                         android:layout_height="25dp"
-                        android:src="@drawable/info"
+                        android:src="@drawable/precipitation"
                         app:tint="#FFF"></ImageView>
 
                     <Space
@@ -373,13 +373,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Info"
+                        android:text="Precipitation"
                         android:textSize="12sp">
 
                     </TextView>
 
                     <TextView
-                        android:id="@+id/info"
+                        android:id="@+id/precipitation"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="5:30am"
